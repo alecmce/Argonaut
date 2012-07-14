@@ -20,7 +20,9 @@ package net.sfmultimedia.argonaut.type
 
             var length:int = instance.length;
             for (var i:int = 0; i < length; i++)
+            {
                 values[i] = encodeElement(instance[i]);
+            }
 
             return "[" + values.join(",") + "]";
         }

@@ -1,13 +1,15 @@
 package net.sfmultimedia.argonaut
 {
-	public interface IArgonaut
-	{
+    public interface IArgonaut
+    {
         function parse(json:*):*;
+
         function parseAs(json:*, classObject:Class):*;
 
         function stringify(instance:*):String;
 
-		function setConfiguration(value:ArgonautConfig):void;
-		function getConfiguration():ArgonautConfig;
-	}
+        function setConfiguration(value:ArgonautConfig):void;
+
+        function getConfiguration():ArgonautConfig;
+    }
 }

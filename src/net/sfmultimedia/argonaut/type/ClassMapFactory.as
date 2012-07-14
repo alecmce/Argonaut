@@ -42,7 +42,9 @@ package net.sfmultimedia.argonaut.type
         private function addMappings(xmlList:XMLList, map:ClassTypeMap):void
         {
             for each (var node:XML in xmlList)
+            {
                 addMapping(node, map);
+            }
         }
 
         private function addMapping(node:XML, map:ClassTypeMap):void

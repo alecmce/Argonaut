@@ -79,9 +79,9 @@ package net.sfmultimedia.argonaut
 
         private function tabs(count:int):String
         {
-           var str:String = "";
-           while (count--)
-            str += TAB;
+            var str:String = "";
+            while (count--)
+                str += TAB;
 
             return str;
         }

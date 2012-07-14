@@ -33,7 +33,9 @@ package net.sfmultimedia.argonaut.type
 
             var length:int = instance.length;
             for (var i:int = 0; i < length; i++)
+            {
                 values[i] = elementType.encode(instance[i]);
+            }
 
             return "[" + values.join(",") + "]";
         }
@@ -45,7 +47,9 @@ package net.sfmultimedia.argonaut.type
 
             var count:int = value.length;
             for (var i:int = 0; i < count; i++)
+            {
                 list[i] = elementType.decode(value[i]);
+            }
 
             return list;
         }

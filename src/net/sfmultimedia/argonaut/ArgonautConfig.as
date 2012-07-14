@@ -4,13 +4,13 @@ package net.sfmultimedia.argonaut
     import net.sfmultimedia.argonaut.errors.TraceErrorHandler;
 
     public class ArgonautConfig
-	{
+    {
         private static const DEFAULT_ALIAS_ID:String = "__jsonclass__";
 
         public var aliasId:String;
-		public var tagClassesWhenEncoding:Boolean;
-		public var nativeEncodeMode:Boolean;
-		public var errorHandler:ErrorHandler;
+        public var tagClassesWhenEncoding:Boolean;
+        public var nativeEncodeMode:Boolean;
+        public var errorHandler:ErrorHandler;
 
         public function ArgonautConfig()
         {
