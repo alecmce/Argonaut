@@ -13,7 +13,7 @@ Use it for:
 
 ## License
 
-All code in this repository is licensed under the MIT License. For full details see the [official license](Argonaut/license.md).
+All code in this repository is licensed under the MIT License. For full details see the [official license](https://github.com/alecmce/Argonaut/license.md).
 
 ## Example
 
